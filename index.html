@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GAME 2</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="app">
+  <main class="game-side">
+    
+    <section class="stage">
+      <canvas id="game" width="1100" height="619"></canvas>
+      <div class="hud"><div class="hud-row"><div class="panel-pill objective">Mục tiêu<b>Đưa Mặt Trời Vàng đến ngôi đền</b></div><div class="stats"><div class="panel-pill">TIME<b id="time">90</b></div><div class="panel-pill">SCORE<b id="score">0</b></div><div class="panel-pill">LIVES<b id="lives">3</b></div></div></div></div>
+      <div class="controls"><kbd>WASD</kbd> / <kbd>←↑↓→</kbd> di chuyển · <kbd>SPACE</kbd> chuyền · <kbd>R</kbd> chơi lại · <kbd>F</kbd> toàn màn hình · camera tự theo chiều dọc</div>
+      <button class="fullscreen-btn" id="fullscreenBtn">FULLSCREEN</button>
+      <div class="overlay" id="overlay"><div class="card"><div class="eyebrow">GAMEPLAY & CHARACTER TEST</div><h1>PYRAMID<br>PASS</h1><p>Bản chơi toàn màn hình với nhân vật 70% và mummy 120%. Nhấn Bắt đầu để vào chế độ toàn màn hình.</p><button class="primary" id="startBtn">BẮT ĐẦU</button></div></div>
+    </section>
+  </main>
+  
+</div>
+<script src="./game.js"></script>
+
+</body>
+</html>
